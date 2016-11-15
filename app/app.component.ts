@@ -18,7 +18,9 @@ const HEROES: Hero[] = [
   { id: 20, name: 'Tornado' }
 ];
 
-var heroes = HEROES;
+heroes = HEROES;
+
+
 
 @Component({
     selector: 'my-app',
