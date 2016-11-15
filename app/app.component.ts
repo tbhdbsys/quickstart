@@ -18,7 +18,6 @@ const HEROES: Hero[] = [
   { id: 20, name: 'Tornado' }
 ];
 
-var heroes = HEROES;
 
 
 
@@ -35,7 +34,7 @@ var heroes = HEROES;
       <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
   </ul>
-  `
+  `,
 
   styles: [`
   .selected {
@@ -95,5 +94,7 @@ export class AppComponent {
     id: 1,
     name: 'Windstorm'
   };
+
+  heroes = HEROES;
 }
 
