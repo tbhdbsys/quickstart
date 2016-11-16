@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 import { HeroesComponent }  from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import {HeroService} from "./hero.service";
-import {AppComponent} from "./app/app.component";
+import {AppComponent} from "./app.component";
 
 @NgModule({
   imports: [

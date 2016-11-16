@@ -6,7 +6,7 @@ import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 ////////  SPECS  /////////////
-describe('HeroesComponent', function () {
+describe('AppComponent', function () {
   let de: DebugElement;
   let comp: HeroesComponent;
   let fixture: ComponentFixture<HeroesComponent>;
