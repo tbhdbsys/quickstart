@@ -6,6 +6,7 @@ import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 ////////  SPECS  /////////////
+/*
 describe('AppComponent', function () {
   let de: DebugElement;
   let comp: HeroesComponent;
@@ -33,3 +34,4 @@ describe('AppComponent', function () {
       '<h1> should say something about "Angular"');
   });
 });
+*/
