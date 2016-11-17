@@ -1,6 +1,8 @@
 import {Component} from "@angular/core";
 
 @Component({
+  moduleId: module.id,
+
   selector: 'my-app',
 
   template: `
@@ -12,12 +14,7 @@ import {Component} from "@angular/core";
    <router-outlet></router-outlet>
  `,
 
-  styles: [`
-    .selected {
-      background-color: #CFD8DC !important;
-      color: white;
-    }
-  `]
+  styleUrls: [ 'dashboard.component.css' ]
 })
 
 export class AppComponent {
