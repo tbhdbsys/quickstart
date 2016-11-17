@@ -19,16 +19,16 @@ import { HeroService }         from './hero.service';
         pathMatch: 'full'
       },
       {
+        path: 'heroes',
+        component: HeroesComponent
+      },
+      {
         path: 'dashboard',
         component: DashboardComponent
       },
       {
         path: 'detail/:id',
         component: HeroDetailComponent
-      },
-      {
-        path: 'heroes',
-        component: HeroesComponent
       }
     ])
   ],
